@@ -1,13 +1,15 @@
 package com.payment.app.model;
 
-import lombok.Data;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 //@Data
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Payment {
-    private String type; // "creditCard" o "paypal"
     private double amount;
 }
